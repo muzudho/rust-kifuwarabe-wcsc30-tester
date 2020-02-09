@@ -61,25 +61,39 @@ fn main() {
         let mut line = String::new();
         println!("Trace   | usi...");
         match child_in22.write(b"usi\n") {
-            Ok(why) => println!("Trace   | Ok {:?}", why),
+            Ok(size) => println!("Trace   | Size {:?}", size),
             Err(why) => panic!("{}", Error::description(&why)),
         };
         // 複数行返ってくるやつは　どうやって終わりを判定するんだぜ☆（＾～＾）？
-        println!("Trace   | Read line...");
-        match child_out.read_line(&mut line) {
-            Ok(why) => println!("Trace   | Ok {:?}", why),
-            Err(why) => panic!("{}", Error::description(&why)),
-        };
-        println!("Trace   > {}", line);
+        {
+            // usiok を受け取るまで無限ループするからな☆（＾～＾）
+            loop {
+                // 1行目: id name Kifuwarabe WCSC30.build55\n
+                // 2行目: id author TAKAHASHI, Satoshi\n
+                // 3行目: usiok\n
+                println!("Trace   | Read line...");
+                match child_out.read_line(&mut line) {
+                    Ok(size) => println!("Trace   | Size {:?}", size),
+                    Err(why) => panic!("{}", Error::description(&why)),
+                };
+                println!("Trace   > [{}]", line);
+                if line == "usiok\n" {
+                    println!("Trace   | Usiok.");
+                    break;
+                }
+                line.clear();
+            }
+        }
 
+        // 将棋ソフトを終わらせてから、このテスターを終わらせろだぜ☆（＾～＾）
         println!("Trace   | Quit...");
         match child_in22.write(b"quit\n") {
-            Ok(why) => println!("Trace   | Ok {:?}", why),
+            Ok(size) => println!("Trace   | Size {:?}", size),
             Err(why) => panic!("{}", Error::description(&why)),
         };
         println!("Trace   | Wait child process...");
         match child_shell36.wait() {
-            Ok(why) => println!("Trace   | Ok {:?}", why),
+            Ok(size) => println!("Trace   | Size {:?}", size),
             Err(why) => panic!("{}", Error::description(&why)),
         };
     }
