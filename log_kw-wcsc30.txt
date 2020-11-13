@@ -1,0 +1,69 @@
+id name Kifuwarabe WCSC30.build55
+id author TAKAHASHI, Satoshi
+usiok
+readyok
+info string My raion 59.
+info string My raion is not outed.
+info 5i6h evaluated => 0 attackers. offence=△->68
+info SOLUTED ss=5i6h.
+info 9g9f evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=9g9f.
+info 5g5f evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=5g5f.
+info 3i4h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=3i4h.
+info 6i5h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=6i5h.
+info 7i6h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=7i6h.
+info 6g6f evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=6g6f.
+info 3i3h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=3i3h.
+info 9i9h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=9i9h.
+info 6i6h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=6i6h.
+info 4g4f evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=4g4f.
+info 2h7h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=2h7h.
+info 4i5h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=4i5h.
+info 1i1h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=1i1h.
+info 2g2f evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=2g2f.
+info 4i3h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=4i3h.
+info 2h4h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=2h4h.
+info 3g3f evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=3g3f.
+info 2h3h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=2h3h.
+info 8g8f evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=8g8f.
+info 4i4h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=4i4h.
+info 2h6h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=2h6h.
+info 1g1f evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=1g1f.
+info 7i7h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=7i7h.
+info 2h5h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=2h5h.
+info 7g7f evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=7g7f.
+info 6i7h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=6i7h.
+info 5i5h evaluated => 0 attackers. offence=△->58
+info SOLUTED ss=5i5h.
+info 5i4h evaluated => 0 attackers. offence=△->48
+info SOLUTED ss=5i4h.
+info 2h1h evaluated => 0 attackers. offence=△->59
+info SOLUTED ss=2h1h.
+info 30 solutions.
+info solution:2h4h.
+bestmove 2h4h
